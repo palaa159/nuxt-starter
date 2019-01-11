@@ -1,0 +1,29 @@
+.sticky {
+  position: fixed !important;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.has-shadow {
+  box-shadow: 0 1px 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-sticky-active {
+  padding-top: 68px;
+}
+
+.animate {
+  animation: 1s slide-down;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}

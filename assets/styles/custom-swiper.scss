@@ -1,0 +1,20 @@
+.swiper-pagination {
+  z-index: -1;
+
+  .swiper-pagination-bullet {
+    background: $default-link !important;
+    opacity: 0.2;
+    outline: 0;
+    width: 28px !important;
+    height: 3px !important;
+    margin: 0 8px !important;
+    border-radius: 0px;
+    cursor: pointer;
+    // padding: 12px 0px;
+
+    &.swiper-pagination-bullet-active {
+      background: $default-link !important;
+      opacity: 1;
+    }
+  }
+}
