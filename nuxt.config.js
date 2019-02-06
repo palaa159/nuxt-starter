@@ -91,11 +91,6 @@ module.exports = {
         }
       }
     ],
-    [
-      'nuxt-rfg-icon', {
-        masterPicture: 'http://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2014-10-19/3d686326fc83540b583856510c4c9e9c.ico'
-      }
-    ],
     'nuxt-babel',
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
